@@ -1,0 +1,65 @@
+/* Importando font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.flex-padre{
+    display: flex;
+}
+.flex-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50em;
+    min-height: 100vh;
+    background-color: #E8EBE4;
+}
+.div-avatar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.div-subavatar{
+    display: flex;
+}
+.img-avatar{
+    width: 10%;
+    border-radius: 50%;
+}
+.div-button{
+    padding-top:2em ;
+    padding-bottom: 2em;
+}
+.div-button button{
+    padding: 1em;
+}
+.div-friends{
+    display: flex;
+    padding: 1em;
+}
+.img-friends{
+    width: 15%;
+    border-radius: 50%;
+}
+
+
+
+
+.flex-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+main img{
+    width: 40%;
+    border: solid 3px #A491D2;
+    padding: 2px;
+    border-radius: 10%;
+}
