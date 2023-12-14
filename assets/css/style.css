@@ -59,7 +59,17 @@ body{
     padding-bottom: 2em;
 }
 .div-button button{
-    padding: 1em;
+    padding: 1.5em 3.5em 1.5em 3.5em;
+    background-color: #A491D2;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+    border-radius:20px;
+    transition: background-color 0.5s linear;
+}
+.div-button button:active{
+    background-color: #CDC3E6;
 }
 /* Atributos para los siguientes contenedores de los avatares de los amigos en el chat */
 .div-friends{
@@ -78,6 +88,9 @@ body{
     border-radius: 50%;
     border: solid 1px #A491D2;
     padding: 2px;
+}
+.p-message{
+    font-size: smaller;
 }
 
 /* Atributos para la etiqueta Main que se encuentra en el lado derecho de la pantalla */
