@@ -67,9 +67,12 @@ body{
     font-size: medium;
     border-radius:20px;
     transition: background-color 0.5s linear;
+    border: solid 5px #CDC3E6;
+    outline-offset: 4px;
 }
 .div-button button:active{
     background-color: #CDC3E6;
+    border: solid 5px #A491D2;
 }
 /* Atributos para los siguientes contenedores de los avatares de los amigos en el chat */
 .div-friends{
