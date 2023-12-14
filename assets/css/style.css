@@ -7,9 +7,11 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+/* Primer div que abarca todo el contenido */
 .flex-padre{
     display: flex;
 }
+/* Atributos para la etiqueta section que ocupa el lado izquierdo de la pantalla */
 .flex-section{
     display: flex;
     flex-direction: column;
@@ -17,26 +19,41 @@ body{
     width:30em;
     min-height: 100vh;
     background-color: #E8EBE4;
+    border: solid 3px lightgrey;
 }
+/* Atributos para el primer contenedor que contiene la imagen del usuario */
 .div-avatar{
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    border-bottom: solid 3px lightgrey;
 }
 .div-subavatar{
     display: flex;
 }
+.div-p{
+    padding-left: 1.2em;
+    padding-top: 0.8em;
+}
+.p-special{
+    color:gray;
+    font-size: small;
+}
 .img-avatar{
-    width: 10%;
+    width: 20%;
     border-radius: 50%;
+    border: solid 1px #A491D2;
+    padding: 2px;
 }
 .div-icon{
     display: flex;
+    padding-top: 0.8em;
 }
 .div-icon i{
     padding-top: 0.5em;
     padding-right: 0.4em;
 }
+/* Atributos para el segundo contener que contiene el botón */
 .div-button{
     padding-top:2em ;
     padding-bottom: 2em;
@@ -44,18 +61,26 @@ body{
 .div-button button{
     padding: 1em;
 }
+/* Atributos para los siguientes contenedores de los avatares de los amigos en el chat */
 .div-friends{
     display: flex;
     padding: 1em;
+    border-bottom: solid 3px lightgrey;
+}
+.div-friends_special{
+    display: flex;
+    padding: 1em;
+    border-bottom: solid 3px lightgrey;
+    border-top: solid 3px lightgrey;
 }
 .img-friends{
     width: 15%;
     border-radius: 50%;
+    border: solid 1px #A491D2;
+    padding: 2px;
 }
 
-
-
-
+/* Atributos para la etiqueta Main que se encuentra en el lado derecho de la pantalla */
 .flex-main{
     display: flex;
     flex-direction: column;
